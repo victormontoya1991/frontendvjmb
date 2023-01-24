@@ -2,12 +2,22 @@
 
 $blue: #111e6c;
 $red: #ef434e;
+$redH: #ce3a43;
 $greyO: #323232;
 $greyC: #969696;
 $background: #e5e7ef;
+$white: #fff;
 
 // Font the Apps //
 $font: 'Montserrat', sans-serif;
+$size: 18px;
+
+// Transition //
+%transition{
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
 
 
 //Styles statis //
@@ -21,4 +31,19 @@ $font: 'Montserrat', sans-serif;
     background: -ms-linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
     background: linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111f6c', endColorstr='#ef434e', GradientType=1 );
+}
+
+// Style Button //
+%button{
+    color: $white;
+    font-weight: 700;
+    padding: 15px 45px;
+    background: $red;
+    max-width: 250px;
+    border-radius: 25px;
+    &:hover{
+        background: $redH;
+        @extend %transition;
+        padding: 15px 47px;
+    }
 }
