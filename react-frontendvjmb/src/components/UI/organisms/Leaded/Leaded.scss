@@ -1,0 +1,33 @@
+@import '../../../../constant.scss';
+
+.ContainerLeaded{
+    padding: 80px 5% 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 50px;
+    align-items: center;
+    grid-template-areas: 
+        "SummaryMonth FilterTime"
+        "SummaryMonth Filters";
+    .SummaryMonth{
+        grid-area: SummaryMonth;
+        display: grid;
+        background: $white;
+        clip-path: inset(10px round 30px);
+        justify-items: center;
+        align-content: center;
+        .TitleSummary{
+            display: flex;
+            @extend %gradientT;
+            width: 100%;
+            align-items: center;
+            h4{
+                color: $white;
+                padding: 40px 30px;
+                font-size: 25px;
+            }
+        }
+    }
+    .FilterTime{grid-area: FilterTime;}
+    .Filters{grid-area: Filters;}
+}

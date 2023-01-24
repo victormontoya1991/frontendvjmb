@@ -8,7 +8,9 @@ const ListItemTransaction = ({transaction}) => {
         <div className='PageListProducts'>
             <TitleFiltre />
             <TitleTabla />
-            { transaction.map ((trans) => <ItemTransaction key={trans.id} {...trans}/>)}
+            <div className='Scroll'>
+                { transaction.map ((trans) => <ItemTransaction key={trans.id} {...trans}/>)}
+            </div>
         </div>
     )
 }

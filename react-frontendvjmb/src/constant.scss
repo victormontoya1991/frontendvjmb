@@ -35,6 +35,10 @@ $sizeDt: 14px;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111f6c', endColorstr='#ef434e', GradientType=1 );
 }
 
+%gradientT{
+    background-image: linear-gradient(to right, #29214e, #532559, #7b265b, #9f2c53, #bb3d44);
+}
+
 // Style Button //
 %button{
     color: $white;

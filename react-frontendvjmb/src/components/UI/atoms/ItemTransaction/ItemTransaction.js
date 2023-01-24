@@ -9,32 +9,32 @@ const ItemTransaction = ( {id , transactionicon , card , cardnumb , date , hour 
     return(
         <div className='ItemTransaction'>
             <section className='Transaction'>
-                {
-                    (transactionicon) === "link"
-                        ?<h3><BiLinkAlt /></h3>
-                        :<h3><BiCalculator/></h3>
-                }
-                <p>{transaction}</p>
-            </section>
-            <p className='Date'>{date} - {hour}</p>
-            <section className='Card'>
-                <img src={cardType(`./${card}.png`)}
-                    alt="card"
-                />
-                <p className='CardNumb'>{cardnumb}</p>
-            </section>
-            <p className='Id'>{id}</p>
-            <section className='Amount'>
-                <h6>${amount}</h6>
                     {
-                        (deduction) > 0
-                            ?<aside>
-                                <p className='TitleAmaunt'>Deducción Bold</p>
-                                <p className='Deduction'>-$ {deduction}</p>
-                            </aside>
-                            :null
+                        (transactionicon) === "link"
+                            ?<h3><BiLinkAlt /></h3>
+                            :<h3><BiCalculator/></h3>
                     }
-            </section>
+                    <p>{transaction}</p>
+                </section>
+                <p className='Date'>{date} - {hour}</p>
+                <section className='Card'>
+                    <img src={cardType(`./${card}.png`)}
+                        alt="card"
+                    />
+                    <p className='CardNumb'>{cardnumb}</p>
+                </section>
+                <p className='Id'>{id}</p>
+                <section className='Amount'>
+                    <h6>${amount}</h6>
+                        {
+                            (deduction) > 0
+                                ?<aside>
+                                    <p className='TitleAmaunt'>Deducción Bold</p>
+                                    <p className='Deduction'>-$ {deduction}</p>
+                                </aside>
+                                :null
+                        }
+                </section>
         </div>
     )
 }
