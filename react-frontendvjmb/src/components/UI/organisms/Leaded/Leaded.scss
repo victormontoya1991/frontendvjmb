@@ -3,7 +3,7 @@
 .ContainerLeaded{
     padding: 80px 5% 20px;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     grid-gap: 50px;
     align-items: center;
     grid-template-areas: 
@@ -16,16 +16,29 @@
         clip-path: inset(10px round 30px);
         justify-items: center;
         align-content: center;
+        padding-bottom: 40px;
         .TitleSummary{
             display: flex;
             @extend %gradientT;
             width: 100%;
             align-items: center;
+            justify-content: space-between;
+            padding: 30px 40px 20px;
             h4{
                 color: $white;
-                padding: 40px 30px;
                 font-size: 25px;
             }
+            h3{
+                svg{
+                    fill: $white;
+                    font-size: 25px;
+                }
+                
+            }
+        }
+        .TotalMonth{
+            padding-top: 30px;
+            h2{font-size: 35px;}
         }
     }
     .FilterTime{grid-area: FilterTime;}

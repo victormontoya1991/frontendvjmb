@@ -1,4 +1,5 @@
 import './Leaded.scss'
+import { BiInfoCircle } from "react-icons/bi";
 
 export const Leaded = () => {
     return (
@@ -6,19 +7,19 @@ export const Leaded = () => {
             <section className="SummaryMonth">
                 <aside className='TitleSummary'>
                     <h4>Total de ventas en MES</h4>
-                    <h3>ico</h3>
+                    <h3><BiInfoCircle /></h3>
                 </aside>
-                <aside>
-                    <h2>$ 5000000</h2>
+                <aside className='TotalMonth'>
+                    <h2>$5000000</h2>
                 </aside>
-                <aside>
+                <aside className='Month'>
                     <p>Fecha</p>
                 </aside>
             </section>
             <section className="FilterTime">
-                <li>Hoy</li>
-                <li>Esta Semana</li>
-                <li>Septiembre</li>
+                <a>Hoy</a>
+                <a>Esta Semana</a>
+                <a>Septiembre</a>
             </section>
             <section className="Filters">
                 <li>Filtrar</li>
