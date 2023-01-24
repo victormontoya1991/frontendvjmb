@@ -1,8 +1,8 @@
 import './TransactionList.scss'
-import { dataRequest } from '../../../helpers/dataRequest'
+import { dataRequest } from '../../../../helpers/dataRequest'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import ListItemTransaction from '../../UI/organisms/ListItemTransaction/ListItemTransaction'
+import ListItemTransaction from '../../molecules/ListItemTransaction/ListItemTransaction'
 
 const TransactionList = () => {
     const [transaction, setTransaction] = useState ([])

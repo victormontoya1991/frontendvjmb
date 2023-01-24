@@ -1,0 +1,52 @@
+@import '../../../../constant.scss';
+
+.ItemTransaction{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 15% 20% 20% 35% 10%;
+    align-items: start;
+    align-content: center;
+    border-top: 1px solid $greyC;
+    .Transaction{
+        display: flex;
+        grid-gap: 5px;
+        h3{
+            font-size: 20px;
+        }
+    }
+    .Date{
+        color:$greyC;
+        text-align: center;
+    }
+    .Card{
+        display: flex;
+        grid-gap: $sizeD;
+        justify-content: center;
+        img{
+            width: 35px;
+        }
+        .CardNumb{
+            font-size: $sizeD;
+            color: $greyC;
+        }
+    }
+    .Id{
+        font-size: $sizeDt;
+        text-align: center;
+        color:$greyC;
+    }
+    .Amount{
+        display: grid;
+        justify-items: end;
+        .TitleAmaunt{
+            color: $greyC;
+            font-size: $sizeDt;
+        }
+        .Deduction{
+            font-size: $sizeD;
+            font-weight: 600;
+            text-align: end;
+            color:$red;
+        }
+    }
+}

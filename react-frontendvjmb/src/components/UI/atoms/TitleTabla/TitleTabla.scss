@@ -1,0 +1,12 @@
+@import '../../../../constant.scss';
+
+.TitleTabla{
+    display: grid;
+    grid-template-columns: 15% 20% 20% 35% 10%;
+    justify-items: center;
+    padding: 25px 0;
+    p{
+        color: $greyO;
+        font-weight: 600;
+    }
+}

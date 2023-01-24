@@ -1,0 +1,13 @@
+@import '../../../../constant.scss';
+
+.TitleFiltre{
+    @extend %gradient;
+    border-radius:40px 40px 0px 0px;
+    .FiltreTT{
+        color:$white;
+        font-size: 28px;
+        padding: 30px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+}
