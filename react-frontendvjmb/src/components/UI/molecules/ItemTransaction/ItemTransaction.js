@@ -1,22 +1,35 @@
 import './ItemTransaction.scss'
+const cardType = require.context('../../../../assets/img',true);
 
-const ItemTransaction = ( {id , transactionicon , card , cardnumb , date , hour , amount , deduction , transaction }) => {
+const ItemTransaction = ( {id , transactionicon , card , cardnumb , date , hour , amount, transaction, deduction }) => {
     return(
         <div className='ItemTransaction'>
-            <section>
-                {transactionicon}
+            <section className='Transaction'>
+                {
+                    transactionicon === "link"
+                        ?<aside><p>Deducción</p></aside>
+                        :<aside><p>Card</p></aside>
+                }
                 <p>{transaction}</p>
             </section>
-            <p>{date} - {hour}</p>
-            <section>
-                {card}
+            <p className='Date'>{date} - {hour}</p>
+            <section className='Card'>
+                <img src={cardType(`./${card}.png`)}
+                    alt="card"
+                />
                 <p>{cardnumb}</p>
             </section>
             <p className='Id'>{id}</p>
-            <section>
+            <section className='Amount'>
                 <h6>${amount}</h6>
-                <p>Deduccción Bold</p>
-                <p>-${deduction}</p>
+                    {
+                        deduction > 0
+                            ?<aside>
+                                <p>Deducción Bold</p>
+                                <p>${deduction}</p>
+                            </aside>
+                            :null
+                    }
             </section>
         </div>
     )

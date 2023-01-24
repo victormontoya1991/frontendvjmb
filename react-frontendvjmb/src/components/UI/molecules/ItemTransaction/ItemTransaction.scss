@@ -3,7 +3,22 @@
     grid-template-columns: 15% 20% 20% 30% 15%;
     align-items: center;
     align-content: center;
+    .Transaction{
+        display: flex;
+    }
+    .Card{
+        display: flex;
+        grid-gap: 15px;
+        img{
+            width: 35px;
+        }
+    }
     .Id{
-        font-size: 14px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .Amount{
+        display: grid;
+        justify-items: end;
     }
 }

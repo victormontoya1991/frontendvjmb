@@ -18,7 +18,7 @@
     "date": "09\/01\/2022",
     "hour": "22:26:34",
     "amount": 36637,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -40,7 +40,7 @@
     "date": "09\/02\/2022",
     "hour": "13:56:33",
     "amount": 29035,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -62,7 +62,7 @@
     "date": "09\/03\/2022",
     "hour": "3:07:29",
     "amount": 17557,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -73,7 +73,7 @@
     "date": "09\/03\/2022",
     "hour": "6:16:45",
     "amount": 44609,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -84,7 +84,7 @@
     "date": "09\/03\/2022",
     "hour": "22:57:02",
     "amount": 18783,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -95,7 +95,7 @@
     "date": "09\/03\/2022",
     "hour": "11:33:01",
     "amount": 24393,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -115,9 +115,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/04\/2022",
-    "hour": "13:57:10",
+    "hour": "13:45:29",
     "amount": 44903,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -126,7 +126,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/04\/2022",
-    "hour": "13:45:29",
+    "hour": "13:57:10",
     "amount": 38132,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -150,7 +150,7 @@
     "date": "09\/05\/2022",
     "hour": "22:19:20",
     "amount": 18590,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -159,7 +159,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1120",
     "date": "09\/06\/2022",
-    "hour": "22:33:55",
+    "hour": "4:21:11",
     "amount": 37687,
     "deduction": 0,
     "transaction": "Declinado"
@@ -170,9 +170,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  2428",
     "date": "09\/06\/2022",
-    "hour": "4:21:11",
+    "hour": "22:33:55",
     "amount": 18497,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -194,7 +194,7 @@
     "date": "09\/06\/2022",
     "hour": "17:06:55",
     "amount": 33047,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -203,9 +203,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  4173",
     "date": "09\/07\/2022",
-    "hour": "20:41:10",
+    "hour": "5:41:14",
     "amount": 42030,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -216,7 +216,7 @@
     "date": "09\/07\/2022",
     "hour": "21:20:43",
     "amount": 36726,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -225,9 +225,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  5700",
     "date": "09\/07\/2022",
-    "hour": "16:42:30",
+    "hour": "20:41:10",
     "amount": 28273,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -236,9 +236,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/07\/2022",
-    "hour": "5:41:14",
+    "hour": "16:42:30",
     "amount": 25122,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -249,7 +249,7 @@
     "date": "09\/08\/2022",
     "hour": "0:51:26",
     "amount": 19596,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -271,7 +271,7 @@
     "date": "09\/09\/2022",
     "hour": "10:59:40",
     "amount": 33108,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -282,7 +282,7 @@
     "date": "09\/09\/2022",
     "hour": "17:10:58",
     "amount": 32308,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -291,7 +291,7 @@
     "card": "america",
     "cardnumb": "**** **** ****  4827",
     "date": "09\/10\/2022",
-    "hour": "23:01:38",
+    "hour": "2:06:59",
     "amount": 21504,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -302,7 +302,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/10\/2022",
-    "hour": "23:40:57",
+    "hour": "23:01:38",
     "amount": 36542,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -313,9 +313,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/10\/2022",
-    "hour": "2:06:59",
+    "hour": "23:40:57",
     "amount": 44145,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -335,9 +335,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1006",
     "date": "09\/11\/2022",
-    "hour": "13:52:30",
+    "hour": "2:04:47",
     "amount": 29692,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -346,9 +346,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/11\/2022",
-    "hour": "2:04:47",
+    "hour": "13:52:30",
     "amount": 18546,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -379,7 +379,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/13\/2022",
-    "hour": "21:17:14",
+    "hour": "1:25:40",
     "amount": 35944,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -390,9 +390,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/13\/2022",
-    "hour": "9:16:41",
+    "hour": "20:39:42",
     "amount": 20091,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -401,9 +401,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  8317",
     "date": "09\/14\/2022",
-    "hour": "20:39:42",
+    "hour": "9:16:41",
     "amount": 16730,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -412,9 +412,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  9407",
     "date": "09\/14\/2022",
-    "hour": "20:54:47",
+    "hour": "21:17:14",
     "amount": 33736,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -423,7 +423,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/14\/2022",
-    "hour": "1:25:40",
+    "hour": "20:54:47",
     "amount": 28057,
     "deduction": 0,
     "transaction": "Declinado"
@@ -434,9 +434,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  8971",
     "date": "09\/15\/2022",
-    "hour": "20:49:09",
+    "hour": "0:44:25",
     "amount": 19785,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -445,7 +445,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/15\/2022",
-    "hour": "2:25:11",
+    "hour": "17:43:31",
     "amount": 35153,
     "deduction": 0,
     "transaction": "Declinado"
@@ -456,7 +456,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/15\/2022",
-    "hour": "2:30:17",
+    "hour": "2:25:11",
     "amount": 37744,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -467,7 +467,7 @@
     "card": "america",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/15\/2022",
-    "hour": "8:48:56",
+    "hour": "2:30:17",
     "amount": 15501,
     "deduction": 0,
     "transaction": "Declinado"
@@ -478,9 +478,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/15\/2022",
-    "hour": "0:44:25",
+    "hour": "5:01:28",
     "amount": 23488,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -491,7 +491,7 @@
     "date": "09\/15\/2022",
     "hour": "7:50:28",
     "amount": 21104,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -500,7 +500,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/15\/2022",
-    "hour": "20:56:13",
+    "hour": "8:48:56",
     "amount": 23154,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -511,9 +511,9 @@
     "card": "america",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/15\/2022",
-    "hour": "17:43:31",
+    "hour": "20:49:09",
     "amount": 29640,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -522,7 +522,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/15\/2022",
-    "hour": "5:01:28",
+    "hour": "20:56:13",
     "amount": 18803,
     "deduction": 0,
     "transaction": "Declinado"
@@ -544,9 +544,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/16\/2022",
-    "hour": "11:57:17",
+    "hour": "3:47:06",
     "amount": 26909,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -555,9 +555,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/16\/2022",
-    "hour": "18:29:31",
+    "hour": "11:57:17",
     "amount": 38702,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -566,9 +566,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/16\/2022",
-    "hour": "23:29:12",
+    "hour": "18:29:31",
     "amount": 31722,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -588,9 +588,9 @@
     "card": "america",
     "cardnumb": "**** **** ****  3519",
     "date": "09\/17\/2022",
-    "hour": "0:18:24",
+    "hour": "23:29:12",
     "amount": 29961,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -599,7 +599,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  8535",
     "date": "09\/17\/2022",
-    "hour": "12:42:14",
+    "hour": "23:29:38",
     "amount": 37878,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -610,9 +610,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1338",
     "date": "09\/18\/2022",
-    "hour": "3:47:06",
+    "hour": "16:33:37",
     "amount": 40923,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -621,7 +621,7 @@
     "card": "america",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/18\/2022",
-    "hour": "16:33:37",
+    "hour": "19:54:22",
     "amount": 44518,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -632,9 +632,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  6838",
     "date": "09\/19\/2022",
-    "hour": "19:54:22",
+    "hour": "0:18:24",
     "amount": 15139,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -643,9 +643,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  2646",
     "date": "09\/19\/2022",
-    "hour": "23:29:38",
+    "hour": "12:42:14",
     "amount": 38632,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -654,7 +654,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1992",
     "date": "09\/20\/2022",
-    "hour": "10:59:06",
+    "hour": "5:49:24",
     "amount": 33079,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -676,9 +676,9 @@
     "card": "america",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/21\/2022",
-    "hour": "13:35:36",
+    "hour": "23:50:04",
     "amount": 21667,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -687,7 +687,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/22\/2022",
-    "hour": "11:04:05",
+    "hour": "10:59:06",
     "amount": 41143,
     "deduction": 0,
     "transaction": "Declinado"
@@ -698,7 +698,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/22\/2022",
-    "hour": "23:50:04",
+    "hour": "11:04:05",
     "amount": 32975,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -709,7 +709,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/22\/2022",
-    "hour": "5:49:24",
+    "hour": "11:15:28",
     "amount": 27239,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -720,9 +720,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1049",
     "date": "09\/22\/2022",
-    "hour": "11:15:28",
+    "hour": "13:35:36",
     "amount": 26084,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -731,7 +731,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  2864",
     "date": "09\/23\/2022",
-    "hour": "10:02:09",
+    "hour": "5:43:12",
     "amount": 19466,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -742,9 +742,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  8099",
     "date": "09\/23\/2022",
-    "hour": "20:51:04",
+    "hour": "3:49:19",
     "amount": 43312,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -753,9 +753,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/23\/2022",
-    "hour": "5:43:12",
+    "hour": "3:04:15",
     "amount": 23082,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -764,9 +764,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1028",
     "date": "09\/23\/2022",
-    "hour": "3:49:19",
+    "hour": "11:02:28",
     "amount": 21452,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -775,9 +775,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1006",
     "date": "09\/23\/2022",
-    "hour": "3:04:15",
+    "hour": "10:02:09",
     "amount": 30609,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -786,9 +786,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/23\/2022",
-    "hour": "11:02:28",
+    "hour": "20:51:04",
     "amount": 32212,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -797,9 +797,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1774",
     "date": "09\/24\/2022",
-    "hour": "13:33:33",
+    "hour": "12:50:32",
     "amount": 21122,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -808,7 +808,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  3955",
     "date": "09\/24\/2022",
-    "hour": "22:54:07",
+    "hour": "13:33:33",
     "amount": 19408,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -819,9 +819,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1006",
     "date": "09\/24\/2022",
-    "hour": "12:50:32",
+    "hour": "18:46:26",
     "amount": 28572,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -830,9 +830,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/24\/2022",
-    "hour": "18:46:26",
+    "hour": "3:02:49",
     "amount": 21032,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -841,9 +841,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  5263",
     "date": "09\/25\/2022",
-    "hour": "3:02:49",
+    "hour": "6:29:27",
     "amount": 39700,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -854,7 +854,7 @@
     "date": "09\/25\/2022",
     "hour": "7:33:21",
     "amount": 30905,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -874,9 +874,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/25\/2022",
-    "hour": "6:29:27",
+    "hour": "17:59:05",
     "amount": 21088,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -885,7 +885,7 @@
     "card": "america",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/25\/2022",
-    "hour": "17:59:05",
+    "hour": "22:54:07",
     "amount": 16692,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -896,9 +896,9 @@
     "card": "america",
     "cardnumb": "**** **** ****  1006",
     "date": "09\/26\/2022",
-    "hour": "2:38:41",
+    "hour": "4:24:01",
     "amount": 19133,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -909,7 +909,7 @@
     "date": "09\/26\/2022",
     "hour": "4:08:50",
     "amount": 20102,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -918,7 +918,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/26\/2022",
-    "hour": "18:09:55",
+    "hour": "21:24:45",
     "amount": 38447,
     "deduction": 0,
     "transaction": "Declinado"
@@ -929,7 +929,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  7663",
     "date": "09\/27\/2022",
-    "hour": "4:24:01",
+    "hour": "1:55:33",
     "amount": 39309,
     "deduction": 0,
     "transaction": "Declinado"
@@ -940,9 +940,9 @@
     "card": "visa",
     "cardnumb": "**** **** ****  9189",
     "date": "09\/27\/2022",
-    "hour": "21:24:45",
+    "hour": "2:38:41",
     "amount": 18662,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -953,7 +953,7 @@
     "date": "09\/27\/2022",
     "hour": "13:18:39",
     "amount": 27240,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -962,9 +962,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  9844",
     "date": "09\/27\/2022",
-    "hour": "1:55:33",
+    "hour": "18:09:55",
     "amount": 43581,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -973,9 +973,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  3737",
     "date": "09\/28\/2022",
-    "hour": "17:16:48",
+    "hour": "1:01:52",
     "amount": 27572,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -984,9 +984,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  6354",
     "date": "09\/28\/2022",
-    "hour": "7:43:47",
+    "hour": "1:53:44",
     "amount": 45954,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -995,7 +995,7 @@
     "card": "master",
     "cardnumb": "**** **** ****  6790",
     "date": "09\/28\/2022",
-    "hour": "1:53:44",
+    "hour": "7:43:47",
     "amount": 31923,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -1008,7 +1008,7 @@
     "date": "09\/28\/2022",
     "hour": "6:19:37",
     "amount": 27895,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -1019,7 +1019,7 @@
     "date": "09\/28\/2022",
     "hour": "8:02:43",
     "amount": 17909,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -1028,7 +1028,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  1006",
     "date": "09\/28\/2022",
-    "hour": "1:01:52",
+    "hour": "17:16:48",
     "amount": 34779,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -1041,7 +1041,7 @@
     "date": "09\/28\/2022",
     "hour": "19:44:45",
     "amount": 35024,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -1050,9 +1050,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1556",
     "date": "09\/29\/2022",
-    "hour": "23:43:41",
+    "hour": "7:16:48",
     "amount": 38442,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -1061,7 +1061,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  4391",
     "date": "09\/29\/2022",
-    "hour": "7:16:48",
+    "hour": "8:41:56",
     "amount": 22446,
     "deduction": 0,
     "transaction": "Declinado"
@@ -1072,9 +1072,9 @@
     "card": "america",
     "cardnumb": "**** **** ****  7444",
     "date": "09\/29\/2022",
-    "hour": "8:41:56",
+    "hour": "23:13:20",
     "amount": 17967,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     },
     {
@@ -1083,7 +1083,7 @@
     "card": "visa",
     "cardnumb": "**** **** ****  9625",
     "date": "09\/29\/2022",
-    "hour": "23:53:59",
+    "hour": "23:43:41",
     "amount": 26487,
     "deduction": 1500,
     "transaction": "Exitoso"
@@ -1094,9 +1094,9 @@
     "card": "master",
     "cardnumb": "**** **** ****  1071",
     "date": "09\/29\/2022",
-    "hour": "23:13:20",
+    "hour": "23:53:59",
     "amount": 47227,
-    "deduction": 0,
+    "deduction": 1500,
     "transaction": "Exitoso"
     }
 ]
