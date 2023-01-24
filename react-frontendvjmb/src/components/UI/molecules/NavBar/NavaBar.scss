@@ -1,0 +1,21 @@
+@import '../../../../constant.scss';
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    a{
+        font-size: 16px;
+        color: $white;
+        font-weight: 500;
+        padding: 15px 25px;
+        max-width: 250px;
+        border-radius: 25px;
+        &:hover{
+            background: $white;
+            @extend %transition;
+            font-weight: 700;
+            color: $blue;
+        }
+    }
+}

@@ -2,7 +2,7 @@ import './TransactionList.scss'
 
 const TransactionList = () => {
     return (
-        <div>
+        <div className='ContainerTransactionList'>
             components
         </div>
     );
