@@ -1,0 +1,7 @@
+@import '../../../../constant.scss';
+
+.header{
+    @extend %gradient;
+    height: 120px;
+    width: 100%;
+}

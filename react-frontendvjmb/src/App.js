@@ -1,11 +1,10 @@
 import './App.scss';
+import { Header } from './components/UI/organisms/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <h1 className='title'> Titulo </h1>
-      </header>
+      <Header/>
     </div>
   );
 }

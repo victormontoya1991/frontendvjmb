@@ -6,10 +6,19 @@ $greyO: #323232;
 $greyC: #969696;
 $background: #e5e7ef;
 
-
 // Font the Apps //
 $font: 'Montserrat', sans-serif;
 
 
-
 //Styles statis //
+
+%gradient{
+    background: rgba(17,31,108,1);
+    background: -moz-linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(41%, rgba(17,31,108,1)), color-stop(59%, rgba(85,42,99,1)), color-stop(100%, rgba(239,67,78,1)));
+    background: -webkit-linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
+    background: linear-gradient(45deg, rgba(17,31,108,1) 41%, rgba(85,42,99,1) 59%, rgba(239,67,78,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111f6c', endColorstr='#ef434e', GradientType=1 );
+}
