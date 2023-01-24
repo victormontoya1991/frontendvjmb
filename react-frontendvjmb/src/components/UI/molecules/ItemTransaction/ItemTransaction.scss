@@ -1,0 +1,9 @@
+.ItemTransaction{
+    display: grid;
+    grid-template-columns: 15% 20% 20% 30% 15%;
+    align-items: center;
+    align-content: center;
+    .Id{
+        font-size: 14px;
+    }
+}
