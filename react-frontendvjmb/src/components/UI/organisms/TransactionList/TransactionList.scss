@@ -3,4 +3,9 @@
 .ContainerTransactionList{
     min-height: 85vh;
     padding: 10px 5% 100px;
+    .TransactionList{
+        clip-path: inset(10px round 40px);
+    }
 }
+
+

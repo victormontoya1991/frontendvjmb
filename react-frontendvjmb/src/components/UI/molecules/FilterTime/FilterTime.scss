@@ -1,0 +1,24 @@
+@import '../../../../constant.scss';
+
+.FilterTime{
+    display: flex;
+    background: $white;
+    margin-right: 50px;
+    padding: 15px;
+    border-radius: 25px;
+    justify-content: space-around;
+    a{
+        font-size: 20px;
+        font-weight:600;
+        padding: 10px 30px;
+        min-width: 30%;
+        text-align: center;
+        border-radius: 15px;
+        &:hover{
+            background: $greyC;
+        }
+    }
+    .active{
+        background: $greyC;
+    }
+}

@@ -1,11 +1,13 @@
 import './TitleFiltre.scss'
 
-export const TitleFiltre = () => {
+export const TitleFiltre = ({name}) => {
     return ( 
         <div className="TitleFiltre">
-            <h3 className="FiltreTT">
-                Tus ventas de FILTRO
-            </h3>
+            {
+                !name
+                    ?<h3 className="FiltreTT"> Tus ventas de Septiembre </h3>
+                    :<h3 className="FiltreTT"> Tus ventas de {name}</h3>
+            }
         </div>
     );
 }

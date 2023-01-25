@@ -1,7 +1,6 @@
 @import '../../../../constant.scss';
 .PageListProducts{
     background: $white;
-    clip-path: inset(10px round 40px);
     .Scroll{
         overflow-y: auto;
         height: 50vh;

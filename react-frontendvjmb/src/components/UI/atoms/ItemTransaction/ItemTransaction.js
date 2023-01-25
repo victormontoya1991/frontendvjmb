@@ -3,9 +3,6 @@ import { BiCalculator, BiLinkAlt } from "react-icons/bi";
 const cardType = require.context('../../../../assets/img',true);
 
 const ItemTransaction = ( {id , transactionicon , card , cardnumb , date , hour , amount, transaction, deduction }) => {
-
-    // const icon = deduction.includes
-
     return(
         <div className='ItemTransaction'>
             <section className='Transaction'>

@@ -1,0 +1,34 @@
+@import '../../../../constant.scss';
+
+.Summary{
+    grid-area: Summary;
+    display: grid;
+    background: $white;
+    clip-path: inset(10px round 30px);
+    justify-items: center;
+    align-content: center;
+    padding-bottom: 40px;
+    .TitleSummary{
+        display: flex;
+        @extend %gradientT;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 40px 20px;
+        h4{
+            color: $white;
+            font-size: 25px;
+        }
+        h3{
+            svg{
+                fill: $white;
+                font-size: 25px;
+            }
+            
+        }
+    }
+    .TotalMonth{
+        padding-top: 30px;
+        h2{font-size: 35px;}
+    }
+}
