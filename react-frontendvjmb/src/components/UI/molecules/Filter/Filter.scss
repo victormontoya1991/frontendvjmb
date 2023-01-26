@@ -1,0 +1,31 @@
+@import '../../../../constant.scss';
+
+.Filters{
+    display: grid;
+    justify-items: end;
+    margin-right: 60px;
+    .button{
+        @extend %button;
+        padding: 15px;
+        width: 250px ;
+    }
+}
+
+.letCheckbox{
+    width: 250px ;
+    margin-top: -20px;
+    padding: 20px 10px 10px 10px;
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 15px 15px ;
+    @extend %transition;
+    .letCheck{
+        @extend %transition;
+        padding: 5px 10px;
+        font-weight: 600;
+        input{
+            margin-right: 10px;
+        }
+    }
+}

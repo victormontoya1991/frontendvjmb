@@ -6,17 +6,18 @@ import ErroPage from './components/Page/Err404/Err404';
 import { Leaded } from './components/UI/organisms/Leaded/Leaded';
 
 function App() {
+
   return (
-    <BrowserRouter>
-      <Header />
-      <Leaded />
-        <Routes>
-          <Route path="/" element={ <Account /> }/>
-          <Route path="/:dateFilter/:name" element={ <Account /> }/>
-          <Route path="*" element={<ErroPage /> }/>
-        </Routes>
-      <Footer />
-    </BrowserRouter>
+      <BrowserRouter>
+        <Header />
+        <Leaded />
+          <Routes>
+            <Route path="/" element={ <Account /> }/>
+            <Route path="/:dateFilter/:name" element={ <Account /> }/>
+            <Route path="*" element={<ErroPage /> }/>
+          </Routes>
+        <Footer />
+      </BrowserRouter>
   );
 }
 

@@ -37,7 +37,6 @@ const TransactionList = () => {
             const resultFilter = dataTrans.filter(trans => trans.transactionicon !== e.target.value)
             setDateFilter([...resultFilter])
         }
-        
     }
     // Filter Periodi
     const filterPeriodi = 
@@ -62,7 +61,7 @@ const TransactionList = () => {
                 <TitleFiltre name={name} />
                 {
                     (dataFilter.length===0)
-                        ?<ListItemTransaction  dataFilter={transaction.sort((a, b) => b.date.localeCompare(a.date))} />
+                        ?<ListItemTransaction  dataFilter={filterPeriodi.sort((a, b) => b.date.localeCompare(a.date))} />
                         :<ListItemTransaction  dataFilter={dataFilter.sort((a, b) => b.date.localeCompare(a.date))} />
                 }
                 

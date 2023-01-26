@@ -5,8 +5,9 @@
     padding: 80px 5% 20px;
     display: grid;
     grid-template-columns: 30% 70%;
+    grid-template-rows: 30% auto;
     grid-gap: 50px;
-    align-items: center;
+    align-items: start;
     grid-template-areas: 
         "Summary FilterTime"
         "Summary Filters";
