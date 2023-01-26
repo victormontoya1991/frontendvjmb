@@ -4,10 +4,11 @@ import { Summary } from '../../atoms/Summary/Summary';
 import { dataRequest } from '../../../../helpers/dataRequest'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import ListItemTransaction from '../../molecules/ListItemTransaction/ListItemTransaction'
 import { TitleFiltre } from '../../atoms/TitleFiltre/TitleFiltre'
+import ListItemTransaction from '../../molecules/ListItemTransaction/ListItemTransaction'
 import React from 'react';
 import Popup from 'reactjs-popup';
+import { BiAbacus } from "react-icons/bi";
 
 const TransactionList = () => {
     // Promise Data
@@ -49,16 +50,24 @@ const TransactionList = () => {
         : dataTrans;
     const {dateFilter} = useParams()
     const dataFilter= filterPeriodi.filter(trans => trans.date >= dateFilter)
+    // Date Summary
+    const summaryFilter= transaction.filter(trans => trans.date >= dateFilter)
+    // Rederizado
     return (
         <section>
             <div className="ContainerLeaded">
-                <Summary />
+                {
+                    (dataFilter.length===0)
+                        ? <Summary dataFilter={transaction} name={name} />
+                        : <Summary dataFilter={summaryFilter} name={name} />
+                }
                 <FilterTime />
                 <section className="Filters">
                     <Popup 
                         trigger={ open =>(
                             <button type="button" className="button">
                             Filtros
+                            <h3><BiAbacus /></h3>
                             </button>
                         )}
                         position={'bottom center'}
@@ -89,7 +98,6 @@ const TransactionList = () => {
                             ?<ListItemTransaction  dataFilter={filterPeriodi.sort((a, b) => b.date.localeCompare(a.date))} />
                             :<ListItemTransaction  dataFilter={dataFilter.sort((a, b) => b.date.localeCompare(a.date))} />
                     }
-                    
                 </section>
             </div>
         </section>

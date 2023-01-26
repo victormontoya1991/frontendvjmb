@@ -20,8 +20,10 @@
             margin-right: 60px;
             .button{
                 @extend %button;
+                display: flex;
                 padding: 15px;
                 width: 250px ;
+                justify-content: center;
             }
         }
         
