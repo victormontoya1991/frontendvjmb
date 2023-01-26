@@ -12,7 +12,7 @@
  },
  {
   "id": "abf46c9c-5c07-4bd7-98a9-897e1918566b",
-  "transactionicon": "card",
+  "transactionicon": "link",
   "card": "master",
   "cardnumb": "**** **** ****  1028",
   "date": "09-01-22",
@@ -301,8 +301,8 @@
   "transactionicon": "link",
   "card": "visa",
   "cardnumb": "**** **** ****  1049",
-  "date": "09-10-22",
-  "hour": "23:01:38",
+  "date": "09-29-22",
+  "hour": "03:01:38",
   "amount": 36542,
   "deduction": 1500,
   "transaction": "Exitoso"

@@ -2,12 +2,12 @@ import './ListItemTrasaction.scss'
 import ItemTransaction from "../../atoms/ItemTransaction/ItemTransaction"
 import { TitleTabla } from '../../atoms/TitleTabla/TitleTabla'
 
-const ListItemTransaction = ({transaction}) => {
+const ListItemTransaction = ({dataFilter}) => {
     return(
         <div className='PageListProducts'>
             <TitleTabla />
             <div className='Scroll'>
-                { transaction.map ((trans) => <ItemTransaction key={trans.id} {...trans}/>)}
+                {dataFilter.map ((trans) => <ItemTransaction key={trans.id} {...trans}/>)}
             </div>
         </div>
     )

@@ -12,7 +12,7 @@ function App() {
       <Leaded />
         <Routes>
           <Route path="/" element={ <Account /> }/>
-          <Route path="/filter/:dateFilter/:name" element={ <Account /> }/>
+          <Route path="/:dateFilter/:name" element={ <Account /> }/>
           <Route path="*" element={<ErroPage /> }/>
         </Routes>
       <Footer />
