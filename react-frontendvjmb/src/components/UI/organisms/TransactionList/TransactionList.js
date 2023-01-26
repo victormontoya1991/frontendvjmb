@@ -1,9 +1,13 @@
 import './TransactionList.scss'
+import { FilterTime } from '../../molecules/FilterTime/FilterTime';
+import { Summary } from '../../atoms/Summary/Summary';
 import { dataRequest } from '../../../../helpers/dataRequest'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ListItemTransaction from '../../molecules/ListItemTransaction/ListItemTransaction'
 import { TitleFiltre } from '../../atoms/TitleFiltre/TitleFiltre'
+import React from 'react';
+import Popup from 'reactjs-popup';
 
 const TransactionList = () => {
     // Promise Data
@@ -46,27 +50,49 @@ const TransactionList = () => {
     const {dateFilter} = useParams()
     const dataFilter= filterPeriodi.filter(trans => trans.date >= dateFilter)
     return (
-        <div className='ContainerTransactionList'>
-            <div>
-                <input type="checkbox" id="filter-list" onChange={handleOnCheckbox} value="card"/> 
-                <label htmlFor='card'>
-                    Pago Tarjeta
-                </label>
-                <input type="checkbox" id="filter-list" onChange={handleOnCheckbox} value="link"/> 
-                <label htmlFor='link'>
-                    Link Pago
-                </label>
+        <section>
+            <div className="ContainerLeaded">
+                <Summary />
+                <FilterTime />
+                <section className="Filters">
+                    <Popup 
+                        trigger={ open =>(
+                            <button type="button" className="button">
+                            Filtros
+                            </button>
+                        )}
+                        position={'bottom center'}
+                        closeOnDocumentClick
+                        >
+                        <div className="letCheckbox">
+                            <div className="letCheck">
+                                <input type="checkbox" id="filter-list" value="card" onChange={handleOnCheckbox} /> 
+                                <label htmlFor='card'>
+                                    Pago tarjeta
+                                </label>
+                            </div>
+                            <div  className="letCheck">
+                                <input type="checkbox" id="filter-list"value="link" onChange={handleOnCheckbox} /> 
+                                <label htmlFor='link'>
+                                    Link de pago
+                                </label>
+                            </div>
+                        </div>
+                    </Popup>
+                </section>
             </div>
-            <section className='TransactionList'>
-                <TitleFiltre name={name} />
-                {
-                    (dataFilter.length===0)
-                        ?<ListItemTransaction  dataFilter={filterPeriodi.sort((a, b) => b.date.localeCompare(a.date))} />
-                        :<ListItemTransaction  dataFilter={dataFilter.sort((a, b) => b.date.localeCompare(a.date))} />
-                }
-                
-            </section>
-        </div>
+            <div className='ContainerTransactionList'>
+                <section className='TransactionList'>
+                    <TitleFiltre name={name} />
+                    {
+                        (dataFilter.length===0)
+                            ?<ListItemTransaction  dataFilter={filterPeriodi.sort((a, b) => b.date.localeCompare(a.date))} />
+                            :<ListItemTransaction  dataFilter={dataFilter.sort((a, b) => b.date.localeCompare(a.date))} />
+                    }
+                    
+                </section>
+            </div>
+        </section>
     );
 }
 
