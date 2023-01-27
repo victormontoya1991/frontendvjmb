@@ -22,3 +22,31 @@
         background: $greyC;
     }
 }
+
+@media (max-width: $PCCompu) {
+    .FilterTime{
+        padding: 10px;
+        a{
+            font-size: 16px;
+            padding: 10px 10px;
+        }
+    }
+}
+
+@media (max-width: $Table) {
+    .FilterTime{
+        margin-right: 30px;
+        a{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: $Movil) {
+    .FilterTime{
+        margin-right: 0px;
+        margin:0px 10px;
+        a{
+            font-size: 14px;
+        }
+    }
+}

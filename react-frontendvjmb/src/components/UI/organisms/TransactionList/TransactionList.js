@@ -23,26 +23,39 @@ const TransactionList = () => {
                 <h1> Err Data Conect </h1>
             })
     },[name])
+
     // Filter Selection
     const [selectedFilter, setSelectedFilter] = useState({
-        card:true,
-        link:true,
+        card:false,
+        link:false
     });
+    //Load LocaStorege
+    useEffect(() => {
+        localStorage.setItem("nameFilter", JSON.stringify(selectedFilter));
+    }, [selectedFilter]);
     const [dataTrans, setDateFilter] = useState ([]);
     const handleOnCheckbox = (e) =>{
         setSelectedFilter ({
-            ...selectedFilter,
+            ...items,
             [e.target.value]: e.target.checked,
         });
         if (e.target.checked){
-            const resultFilter = transaction.filter(trans=> trans.transactionicon === e.target.value)
-            setDateFilter([...dataTrans, ...resultFilter])
-        }
+                const resultFilter = transaction.filter(trans=> trans.transactionicon === e.target.value)
+                setDateFilter([...dataTrans, ...resultFilter])
+            }
         else{
             const resultFilter = dataTrans.filter(trans => trans.transactionicon !== e.target.value)
             setDateFilter([...resultFilter])
-        }
+        }        
     }
+    //Dow LocaStorege
+    const [items, setItems] = useState([]);
+    useEffect(() => {
+        const items = JSON.parse(localStorage.getItem('nameFilter'));
+        if (items) {
+        setItems(items);
+        }
+    }, [selectedFilter]);
     // Filter Periodi
     const filterPeriodi = 
         (dataTrans.length === 0 )
@@ -75,13 +88,21 @@ const TransactionList = () => {
                         >
                         <div className="letCheckbox">
                             <div className="letCheck">
-                                <input type="checkbox" id="filter-list" value="card" onChange={handleOnCheckbox} /> 
+                                {
+                                    (items.card === false)
+                                        ?<input type="checkbox" id="filter-list" value="card" onChange={handleOnCheckbox} />
+                                        :<input type="checkbox" id="filter-list" value="card" onChange={handleOnCheckbox} defaultChecked />  
+                                }
                                 <label htmlFor='card'>
                                     Pago tarjeta
                                 </label>
                             </div>
                             <div  className="letCheck">
-                                <input type="checkbox" id="filter-list"value="link" onChange={handleOnCheckbox} /> 
+                                {
+                                    (items.link === false)
+                                        ?<input type="checkbox" id="filter-list" value="link" onChange={handleOnCheckbox} />
+                                        :<input type="checkbox" id="filter-list" value="link" onChange={handleOnCheckbox} defaultChecked />  
+                                }
                                 <label htmlFor='link'>
                                     Link de pago
                                 </label>

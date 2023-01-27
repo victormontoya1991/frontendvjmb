@@ -27,3 +27,25 @@
         }
     }
 }
+
+@media (max-width: $Movil) {
+    .NavBar{
+        grid-gap: 5px;
+        a{
+            font-size: 12px;
+            padding: 10px 10px;
+            svg{
+                margin-left: 5px;
+                fill: $white;
+            }
+            &:hover{
+                background: none ;
+                color: $white;
+                svg{
+                    fill: $white;
+                }
+            }
+        }
+    }
+    
+}

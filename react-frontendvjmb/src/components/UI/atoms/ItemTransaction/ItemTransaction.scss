@@ -2,12 +2,15 @@
 
 .ItemTransaction{
     display: grid;
-    padding: 30px 50px;
-    grid-template-columns: 15% 20% 20% 35% 10%;
+    border-left: $blue solid 25px;
+    padding: 20px 30px 20px 30px;
+    grid-template-columns: 10% 25% 25% 25% 15%;
     align-items: start;
     align-content: center;
     border-top: 1px solid $greyC;
+    grid-template-areas: "Transaction Date Card Id Amount";
     .Transaction{
+        grid-area:Transaction;
         display: flex;
         grid-gap: 5px;
         h3{
@@ -15,10 +18,12 @@
         }
     }
     .Date{
+        grid-area: Date;
         color:$greyC;
         text-align: center;
     }
     .Card{
+        grid-area: Card;
         display: flex;
         grid-gap: $sizeD;
         justify-content: center;
@@ -31,11 +36,13 @@
         }
     }
     .Id{
+        grid-area: Id;
         font-size: $sizeDt;
         text-align: center;
         color:$greyC;
     }
     .Amount{
+        grid-area:Amount;
         display: grid;
         justify-items: end;
         .TitleAmaunt{

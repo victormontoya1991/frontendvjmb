@@ -13,26 +13,11 @@
             "Summary FilterTime"
             "Summary Filters";
         .FilterTime{grid-area: FilterTime;}
-        .Filters{
-            grid-area: Filters;
-            display: grid;
-            justify-items: end;
-            margin-right: 60px;
-            .button{
-                @extend %button;
-                display: flex;
-                padding: 15px;
-                width: 250px ;
-                justify-content: center;
-            }
-        }
-        
-        
     }
 }
 .letCheckbox{
     width: 250px ;
-    margin-top: -20px;
+    margin-top: -25px;
     padding: 20px 10px 10px 10px;
     background: $white;
     display: flex;
@@ -45,6 +30,37 @@
         font-weight: 600;
         input{
             margin-right: 10px;
+        }
+    }
+}
+@media (max-width: $PCCompu) {
+    .letCheckbox{
+        .letCheck{
+            input{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: $Table) {
+    .Account{
+        .ContainerLeaded{
+            padding: 50px 5% 20px;
+            grid-template-columns: 40% 60%;
+            grid-gap: 20px;
+        }
+    }
+}
+@media (max-width: $Movil) {
+    .Account{
+        .ContainerLeaded{
+            padding: 10px 5% 15px;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+                "Summary"
+                "FilterTime"
+                "Filters";
         }
     }
 }

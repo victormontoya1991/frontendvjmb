@@ -17,7 +17,7 @@
         padding: 30px 40px 20px;
         h4{
             color: $white;
-            font-size: 25px;
+            font-size: 20px;
         }
         h3{
             svg{
@@ -29,6 +29,13 @@
     }
     .TotalMonth{
         padding-top: 30px;
-        h2{font-size: 35px;}
+        h2{
+            font-size: 35px;
+            background: linear-gradient(
+                270deg,  #ef434e, #111e6c
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
 }

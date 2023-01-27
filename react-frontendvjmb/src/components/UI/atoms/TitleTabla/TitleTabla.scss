@@ -2,11 +2,17 @@
 
 .TitleTabla{
     display: grid;
-    grid-template-columns: 15% 20% 20% 35% 10%;
+    grid-template-columns: 15% 20% 25% 20% 20%;
     justify-items: center;
     padding: 25px 0;
     p{
         color: $greyO;
         font-weight: 600;
+    }
+}
+
+@media (max-width: 1300) {
+    .TitleTabla{
+        font-size: 15px;
     }
 }

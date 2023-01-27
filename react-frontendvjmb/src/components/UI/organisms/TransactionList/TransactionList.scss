@@ -1,5 +1,18 @@
 @import '../../../../constant.scss';
 
+.Filters{
+    grid-area: Filters;
+    display: grid;
+    justify-items: end;
+    margin-right: 50px;
+    .button{
+        @extend %button;
+        display: flex;
+        padding: 15px;
+        width: 250px ;
+        justify-content: center;
+    }
+}
 .ContainerTransactionList{
     min-height: 85vh;
     padding: 10px 5% 100px;
@@ -7,5 +20,31 @@
         clip-path: inset(10px round 40px);
     }
 }
+
+@media (max-width: $PCCompu) {
+    .Filters{
+        .button{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: $Table) {
+    .Filters{
+        margin-right: 30px;
+        .button{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: $Movil) {
+    .Filters{
+        margin: 0px 10px;
+        .button{
+            padding: 10px;
+        }
+    }
+}
+
 
 
