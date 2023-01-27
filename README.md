@@ -20,14 +20,14 @@ npm i sass
 npm install react-router-dom
 npm i react-router-dom
 
-### 4 .- Para una elaboración rápida de interfaz se instaló un paquete de iconos, los cuales tienden a coincidir por los usados por la marca
+###  4 .- Para una elaboración rápida de interfaz se instaló un paquete de iconos, los cuales tienden a coincidir por los usados por la marca
 
 npm install react-icons --save
 npm i react-icons --save
 
 https://react-icons.github.io/react-icons/icons?name=bi
 
-### 5.- En el caso del elemento dentro de filtro se usó una biblioteca tooltip llama https://react-popup.elazizi.com/ el comando de instalación es 
+###  5.- En el caso del elemento dentro de filtro se usó una biblioteca tooltip llama https://react-popup.elazizi.com/ el comando de instalación es 
 
 npm install reactjs-popup --save
 
