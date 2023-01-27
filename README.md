@@ -7,20 +7,21 @@
 ![Contact Glass](https://github.com/victormontoya1991/frontendvjmb/blob/main/react-frontendvjmb/src/assets/img/1.png)
 
 
-###  1.-Creación de la aplicación React ejecutando el siguiente comando dentro de la terminal
+### 1.-Creación de la aplicación React ejecutando el siguiente comando dentro de la terminal
 npx create-react-app react-nombredelproyecto
 
-###  2. Una vez terminado la instalación de todos los paquetes deberás instalar el procesador de reconocimiento scss o Sass puedes intentar con los siguientes comandos
+### 2. Una vez terminado la instalación de todos los paquetes deberás instalar el procesador de reconocimiento scss o Sass puedes intentar con los siguientes comandos
 
 npm install node-sass
 npm i node-sass
 npm i sass
 
-###  3. Para facilitar la navegación óptima del app se instala el paquete de navegación React Router, este lo puedes instalar con el siguiente comando
+### 3. Para facilitar la navegación óptima del app se instala el paquete de navegación React Router, este lo puedes instalar con el siguiente comando
+
 npm install react-router-dom
 npm i react-router-dom
 
-###  4 .- Para una elaboración rápida de interfaz se instaló un paquete de iconos, los cuales tienden a coincidir por los usados por la marca
+### 4 .- Para una elaboración rápida de interfaz se instaló un paquete de iconos, los cuales tienden a coincidir por los usados por la marca
 
 npm install react-icons --save
 npm i react-icons --save
