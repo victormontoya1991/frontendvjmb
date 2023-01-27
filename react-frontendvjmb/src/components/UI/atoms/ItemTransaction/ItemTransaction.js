@@ -3,6 +3,15 @@ import { BiCalculator, BiLinkAlt } from "react-icons/bi";
 const cardType = require.context('../../../../assets/img',true);
 
 const ItemTransaction = ( {id , transactionicon , card , cardnumb , date , hour , amount, transaction, deduction }) => {
+    const mone = amount;
+    const dedu = deduction;
+    const formatterPeso = new Intl.NumberFormat('es-CO', {
+        style: 'currency',
+        currency: 'COP',
+        minimumFractionDigits: 0
+    })
+    const amountmone = formatterPeso.format(mone)
+    const dedumone = formatterPeso.format(dedu)
     return(
         <div className='ItemTransaction'>
             <section className='Transaction'>
@@ -22,12 +31,12 @@ const ItemTransaction = ( {id , transactionicon , card , cardnumb , date , hour 
                 </section>
                 <p className='Id'>{id}</p>
                 <section className='Amount'>
-                    <h6>${amount}</h6>
+                    <h6>{amountmone}</h6>
                         {
                             (deduction) > 0
                                 ?<aside>
                                     <p className='TitleAmaunt'>Deducción Bold</p>
-                                    <p className='Deduction'>-$ {deduction}</p>
+                                    <p className='Deduction'>-{dedumone}</p>
                                 </aside>
                                 :null
                         }
