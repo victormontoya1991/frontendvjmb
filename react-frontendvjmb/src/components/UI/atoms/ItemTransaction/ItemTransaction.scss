@@ -1,18 +1,37 @@
 @import '../../../../constant.scss';
 
+$FonsTable: 18px;
+$FonsTwo: 14px;
+
+.ContainerTransaction{
+    display: grid;
+    grid-template-columns: 20px auto;
+}
+.Status{
+    width: 20px;
+    background: $blue;
+}
+.Status2{
+    width: 20px;
+    background: $red;
+}
 .ItemTransaction{
     display: grid;
-    border-left: $blue solid 25px;
     padding: 20px 30px 20px 30px;
     grid-template-columns: 10% 25% 25% 25% 15%;
     align-items: start;
     align-content: center;
     border-top: 1px solid $greyC;
     grid-template-areas: "Transaction Date Card Id Amount";
+    .tileseccion{
+        font-size: 10px;
+        font-weight: 800;
+    }
     .Transaction{
         grid-area:Transaction;
         display: flex;
         grid-gap: 5px;
+        font-size:$FonsTable;
         h3{
             font-size: 20px;
         }
@@ -21,12 +40,14 @@
         grid-area: Date;
         color:$greyC;
         text-align: center;
+        font-size:$FonsTable;
     }
     .Card{
         grid-area: Card;
         display: flex;
         grid-gap: $sizeD;
         justify-content: center;
+        font-size:$FonsTable;
         img{
             width: 35px;
         }
@@ -37,7 +58,7 @@
     }
     .Id{
         grid-area: Id;
-        font-size: $sizeDt;
+        font-size: $FonsTwo;
         text-align: center;
         color:$greyC;
     }
@@ -45,15 +66,86 @@
         grid-area:Amount;
         display: grid;
         justify-items: end;
+        font-size:$FonsTable;
         .TitleAmaunt{
             color: $greyC;
-            font-size: $sizeDt;
+            font-size: $FonsTwo;
         }
         .Deduction{
-            font-size: $sizeD;
+            font-size: $FonsTwo;
             font-weight: 600;
             text-align: end;
             color:$red;
+        }
+    }
+}
+
+@media (max-width: $PCCompu) {
+    .ItemTransaction{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+            "Transaction Date Card"
+            "Id Id Amount"
+        ;
+        .Card{
+            justify-content: end;
+            margin-bottom: 10px;
+        }
+        .Id{
+            display: grid;
+            height: 100%;
+            text-align: start;
+            align-content: center;
+        }
+    }
+}
+
+@media (max-width: $Movil){
+    .ItemTransaction{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+            "Transaction Date"
+            "Card Amount"
+            "Id Amount"
+        ;
+        .Id{
+            font-size: 12px;
+        }
+        .Date{
+            font-size: 12px;
+        }
+        .Transaction{
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: $Movil){
+    .ItemTransaction{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+            "Transaction Date"
+            "Card Card"
+            "Id  Id"
+            "Amount Amount"
+        ;
+        .Amount{
+            border-top: 1px solid #b2b6c9b4;
+            padding-top: 5px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .Card{
+            justify-content: end;
+            margin-top: 15px;
+        }
+        .Id{
+            justify-content: end;
+        }
+        .Date{
+            text-align: end;
         }
     }
 }

@@ -11,8 +11,8 @@
     }
 }
 
-@media (max-width: 1300) {
+@media (max-width: $PCCompu) {
     .TitleTabla{
-        font-size: 15px;
+        display: none;
     }
 }

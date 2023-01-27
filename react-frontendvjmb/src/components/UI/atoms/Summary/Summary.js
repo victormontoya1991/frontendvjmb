@@ -24,7 +24,7 @@ export const Summary = ({name, dataFilter}) => {
                 <h2>{sume}</h2>
             </aside>
             <aside className='Month'>
-                <p>Septiembre 2020</p>
+                <p>Septiembre 2022</p>
             </aside>
         </section>
     );
